@@ -21,6 +21,7 @@
 		BD9ABD1E187C696800A21369 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9ABD00187C696800A21369 /* UIKit.framework */; };
 		BD9ABD26187C696800A21369 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD9ABD24187C696800A21369 /* InfoPlist.strings */; };
 		BD9ABD28187C696800A21369 /* ImageTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9ABD27187C696800A21369 /* ImageTransitionTests.m */; };
+		BD9ABD47187C6FA800A21369 /* LRDTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9ABD46187C6FA800A21369 /* LRDTransitionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BD9ABD23187C696800A21369 /* ImageTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageTransitionTests-Info.plist"; sourceTree = "<group>"; };
 		BD9ABD25187C696800A21369 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD9ABD27187C696800A21369 /* ImageTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTransitionTests.m; sourceTree = "<group>"; };
+		BD9ABD45187C6FA800A21369 /* LRDTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDTransitionView.h; sourceTree = "<group>"; };
+		BD9ABD46187C6FA800A21369 /* LRDTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDTransitionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				BD9ABD0E187C696800A21369 /* Main.storyboard */,
 				BD9ABD11187C696800A21369 /* ViewController.h */,
 				BD9ABD12187C696800A21369 /* ViewController.m */,
+				BD9ABD45187C6FA800A21369 /* LRDTransitionView.h */,
+				BD9ABD46187C6FA800A21369 /* LRDTransitionView.m */,
 				BD9ABD14187C696800A21369 /* Images.xcassets */,
 				BD9ABD03187C696800A21369 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				BD9ABD13187C696800A21369 /* ViewController.m in Sources */,
 				BD9ABD0D187C696800A21369 /* AppDelegate.m in Sources */,
+				BD9ABD47187C6FA800A21369 /* LRDTransitionView.m in Sources */,
 				BD9ABD09187C696800A21369 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				BD9ABD2D187C696800A21369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD9ABD2E187C696800A21369 /* Build configuration list for PBXNativeTarget "ImageTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				BD9ABD30187C696800A21369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
